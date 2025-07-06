@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body class="flex items-center justify-center overflow-x-hidden ">
+  <section class="section w-[90vw] 2xl:w-[75vw]">
+    <!-- navigation bar -->
+    <nav class="h-[12vh] flex items-center justify-between">
+      <h1 class="text-3xl md:text-3xl lg:text-4xl"><i class="ri-shining-2-fill inline-block rotate-45 "></i>WizardZ</h1>
+      <div class="text-[20px] flex flex-row items-center justify-between gap-10 hidden lg:flex xl:flex 2xl:flex">
+        <h3>About us</h3>
+        <h3>Services</h3>
+        <h3>Use Cases</h3>
+        <h3>Pricing</h3>
+        <h3>Blog</h3>
+        <button class="text-[18px] border-2 border-black p-2 rounded-md">Request a quote</button>
+      </div>
+      <i class="ri-menu-3-line lg:hidden text-3xl p-1 rounded-full hover:bg-black hover:text-white menu-icon"></i>
+    </nav>
+    <!-- menu bar -->
+    <section style="box-shadow: -6px 0 10px rgba(0, 0, 0, 0.1);"  class="bg-[rgba(255,255,255,0.8)] w-[80%] h-[100vh] sm:w-[50%] md:w-[50%] xl:w-[40%] 2xl:w-[30%] absolute top-0 right-0 backdrop-filter backdrop-blur-md p-[5%] pt-[10%] text-5xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-6xl flex flex-col items-start justify-start gap-7 z-10 hidden menu">
+      <h3>About us</h3>
+      <h3>Services</h3>
+      <h3>Use Cases</h3>
+      <h3>Pricing</h3>
+      <h3>Blog</h3>
+      <button class="text-[24px] border-2 border-black p-2 mt-8 rounded-md">Request a quote</button>
+      <i style="box-shadow: -6px 0 10px rgba(0, 0, 0, 0.1);" class="ri-close-line p-1 bg-white rounded-full text-4xl md:text-4xl lg:text-5xl xl:text-4xl 2xl:text-5xl absolute top-5 right-5 close-icon"></i>
+    </section>
+    <!-- hero section -->
+    <section class="hero flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+      <div class="md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] h-full hero-text ">
+        <h2 class="pt-8 text-6xl sm:text-7xl md:text-6xl lg:text-6xl xl:text-6xl 2xl:text-9xl font-extrabold hero-text leading-normal">Navigating the digital landscape for success</h2>
+        <p class="text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px] 2xl:text-[32px] pt-5">Our digital marketing agency helps buisnesses grow and suceed online through a range of services including SEO, PCC, social media marketing and content creation.</p>
+        <section class="flex items-center justify-start button">
+          <button class="text-[18px] bg-black text-white font-light p-4 px-10 mb-5 mt-10 rounded-md">Book a consultation</button>    
+        </section>
+      </div>
+      <div class="md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%]  hero-image">
+        <img src="https://borimirdotjs.github.io/positivus-agency/static/media/hero.fb337848b4c02739752ae9d354762635.svg" alt=" hero image" class=" right-0 top-0 object-cover pt-10 ">
+      </div>
+    </section>
+    <!-- client section -->
+    <div class="flex flex-row gap-6 mt-10 justify-between flex-wrap app-icons">
+      <div class="h-[100px] w-[150px]  object-cover flex items-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0MrQe-2a4GOdBywCKbxB_xMeYRXNYn738hQ&s" alt="amazon"></div>
+      <div class="h-[100px] w-[150px] object-cover flex items-center"> <img src="https://logowik.com/content/uploads/images/dribbble.jpg" alt="dribble"></div>
+      <div class="h-[100px] w-[150px] object-cover flex items-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTel6O7jiWWAGymYJgolOGQZ71LvRUG08Ws5GexsQdfQWb5DjKke60GMgw67SHbNnSfOFY&usqp=CAU" alt="hubspot"></div>
+      <div class="h-[100px] w-[150px] object-cover flex items-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYKjY2LGV_wGXYblwgny9lGKXE8zNcGRPBKA&s" alt="notion"></div>
+      <div class="h-[100px] w-[150px] object-cover flex items-center"><img src="https://logowik.com/content/uploads/images/netflix-black6126.logowik.com.webp" alt="netflix"></div>
+      <div class="h-[100px] w-[150px] object-cover flex items-center"><img src="https://i.pinimg.com/564x/a9/fe/31/a9fe319b1a4877cf7fcc9e028cf55d70.jpg" alt="zoom"></div>
+    </div>
+    <!-- services section -->
+    <section class="my-6 mt-20 flex flex-row items-center services services1">
+      <h3 class="text-[34px] font-semibold bg-[#9AE975] px-3 rounded-md flex align-center">Services</h3>
+      <p class="text-[18px] pl-10">At our digital marketing agency, we offer a range of services to help <br> buisness grow and succeed online. These services include: </p>
+    </section>
+    <!-- service cards -->
+    <section class="flex flex-col align-center justify-evenly">
+      <div class="flex flex-row align-center justify-evenly flex-wrap first ">
+        <div class="w-[500px] h-[250px] sm:w-[500px] md:w-[450px] xl:w-[500px] 2xl:w-[500px] border-[2px] border-b-[10px] border-black rounded-[30px] mt-12 left">
+          <div class="flex flex-row m-8 ">
+            <div class="w-[50%] flex flex-col">
+              <h3 class="bg-[#9AE975] inline text-[24px] font-semibold mr-4">Search engine  <br>optimization</h3>
+              <div class="mt-[40px]">
+                <div class="flex flex-row align-center">
+                  <i class="ri-arrow-up-circle-fill inline-block rotate-45 text-5xl"></i><p class="mt-2 text-[18px] font-semibold">Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-[50%] object-cover">
+              <img src="https://www.shutterstock.com/image-vector/ai-performance-evaluation-icon-brain-260nw-2623060963.jpg" alt="search">
+            </div>
+          </div>
+        </div>
+        <div class="w-[500px] h-[250px] sm:w-[500px] md:w-[450px] xl:w-[500px] 2xl:w-[500px] border-[2px] border-b-[10px] border-black rounded-[30px] mt-12 bg-black right">
+          <div class="flex flex-row m-8 ">
+            <div class="w-[60%] flex flex-col">
+              <h3 class="bg-white text-black inline text-[24px] font-semibold mr-4">Pay per click<br>advertisement</h3>
+              <div class="mt-[40px]">
+                <div class="flex flex-row align-center"> 
+                  <i class="ri-arrow-right-up-fill text-4xl bg-white text-black rounded-full"></i><p class="ml-2 mt-2 text-[18px] font-semibold text-white">Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-[40%] object-cover">
+              <img src="https://img.freepik.com/premium-vector/cursor-is-pointing-icon-simple-style-isolated-white-background-computer-internet-symbol_96318-21105.jpg" alt="search">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row align-center justify-evenly flex-wrap second">
+        <div class="w-[500px] h-[250px] sm:w-[500px] md:w-[450px] xl:w-[500px] 2xl:w-[500px] border-[2px] border-b-[10px] border-black rounded-[30px] mt-12 bg-black left">
+          <div class="flex flex-row m-8 ">
+            <div class="w-[60%] flex flex-col">
+              <h3 class="bg-white text-black inline-block text-[24px] font-semibold mr-4 rounded px-2">
+                Social media<br>marketing
+              </h3>
+              <div class="mt-[40px]">
+                <div class="flex flex-row align-center"> 
+                  <i class="ri-arrow-right-up-fill text-4xl bg-white text-black rounded-full"></i><p class="ml-2 mt-2 text-[18px] font-semibold text-white">Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-[40%] object-cover">
+              <img src="https://img.icons8.com/m_outlined/512w/EBEBEB/cash-register.png" alt="search">
+            </div>
+          </div>
+        </div>
+        <div class="w-[500px] h-[250px] sm:w-[500px] md:w-[450px] xl:w-[500px] 2xl:w-[500px] border-[2px] border-b-[10px] border-black rounded-[30px] mt-12 right">
+          <div class="flex flex-row m-8 ">
+            <div class="w-[50%] flex flex-col">
+              <h3 class="bg-[#9AE975] inline text-[24px] font-semibold mr-4">E-mail  <br>marketing</h3>
+              <div class="mt-[40px]">
+                <div class="flex flex-row align-center">
+                  <i class="ri-arrow-up-circle-fill inline-block rotate-45 text-5xl"></i><p class="mt-2 text-[18px] font-semibold">Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-[50%] object-cover">
+              <img src="https://thumbs.dreamstime.com/b/email-black-vector-icon-map-pointer-137979266.jpg?w=768" alt="search">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- case-study -->
+    <section class="my-6 mt-[100px] flex flex-row items-center services case-study">
+      <h3 class="text-[34px] font-semibold bg-[#9AE975] px-3 rounded-md flex align-center">Case study</h3>
+      <p class="text-[18px] pl-10">Explore Real-Life Example of Our Proven Digital Marketing Services <br> through Our Case Studies </p>
+    </section>
+    <!-- foooter -->
+    <section class="flex flex-col sm:flex-col lg:flex-row xl:flex-row 2xl:flex-row w-full p-10 rounded-[25px] bg-black mt-20 mb-10 footer">
+      <div class="p-[5%] sm:px-[5%] lg:px-[5%] xl:px-[5%] 2xl:px-[5%] text-white w-[100%] sm:w-[100%] lg:w-[33%] xl:w-[33%] 2xl:w-[33%]">
+        <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in a website traffic and a 20% increase in sales. </p>
+        <div class="flex flex-row align-center text-[#9AE975] mt-5">
+          <p class="mt-2 text-[18px]">Learn more</p><i class="ri-arrow-right-up-fill inline-block text-3xl pt-1 pl-2"></i>
+        </div>
+      </div>
+      <div class="p-[5%] sm:px-[5%] lg:px-[5%] xl:px-[5%] 2xl:px-[5%] text-white w-[100%] sm:w-[100%] lg:w-[33%] xl:w-[33%] 2xl:w-[33%] border-y-2 sm:border-y-2 lg:border-y-0 xl:border-y-0 2xl:border-y-0 sm:border-x-0 lg:border-x-2 xl:border-x-2 2xl:border-x-2 border-white">
+        <p>For B2B software company we developed a SEO strategyn that resulted in first page ranking for key keywords and 200% increase in organic traffic.</p>
+        <div class="flex flex-row align-center text-[#9AE975] mt-5">
+          <p class="mt-2 text-[18px]">Learn more</p><i class="ri-arrow-right-up-fill inline-block text-3xl pt-1 pl-2"></i>
+        </div>
+      </div>
+      <div class="p-[5%] sm:px-[5%] lg:px-[5%] xl:px-[5%] 2xl:px-[5%] text-white w-[100%] sm:w-[100%] lg:w-[33%] xl:w-[33%] 2xl:w-[33%]">
+        <p>For a national retail chain, we created a social media marketing campign that increased followers by 25% and generated a 20% increment in online sales.</p>
+        <div class="flex flex-row align-center text-[#9AE975] mt-5">
+          <p class="mt-2 text-[18px]">Learn more</p><i class="ri-arrow-right-up-fill inline-block text-3xl pt-1 pl-2"></i>
+        </div>
+      </div>
+    </section> 
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>

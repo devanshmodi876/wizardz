@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'china';
+    src: url('3856NeueMachina.woff2') format('woff2'),
+         url('3856NeueMachina.woff') format('woff');
+}
+.hero-text{
+    font-family: 'china', sans-serif;
+}
+.button button {
+    font-family: 'china', sans-serif;
+}
+.services h3 {
+    font-family: 'china', sans-serif;
+}
